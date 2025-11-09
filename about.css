@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "RobotoMono";
+    src: url(/Users/bethanypena/Documents/cproj/blogging-website/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0px;
+    font-family: RobotoMono;
+    color: white;
+}
+
+body {
+    background-color: #004aad;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+    margin-top: 8px;
+}
+
+p {
+    font-size: 18px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
