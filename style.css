@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+    background-color: #004aad;
+}
+
+img {
+    width: 900px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
