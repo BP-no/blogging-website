@@ -1,11 +1,11 @@
 * {
     margin: 0px;
-    background-color: #004aad;
 }
 
-img {
-    width: 900px;
-    height: auto;
-    display: flex;
-    justify-content: center;
+body {
+    background-image: url("images/WELCOME.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
