@@ -1,6 +1,13 @@
+@font-face {
+    font-family: "RobotoMono";
+    src: url(/Users/bethanypena/Documents/cproj/blogging-website/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+
 * {
     margin: 0px;
+    font-family: RobotoMono;
 }
+
 
 body {
     background-image: url("images/WELCOME.png");
@@ -8,4 +15,29 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    font-size: 20px;
+    text-align: center; 
+    vertical-align: middle;
+    margin: 240px;
+    color: white;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
 }
